@@ -1,9 +1,22 @@
 <template>
-  <h1 class="text-3xl flex justify-center">My App</h1>
+  <Header />
+  <Body />
+  <Footer />
 </template>
 
 <script>
-export default {};
+import Body from "./components/Body.vue";
+import Footer from "./components/Footer.vue";
+import Header from "./components/Header.vue";
+
+export default {
+  name: "App",
+  components: {
+    Header,
+    Body,
+    Footer,
+  },
+};
 </script>
 
 <style></style>
