@@ -5,13 +5,13 @@
     <h1 class="text-2xl">Book</h1>
     <nav class="flex space-x-4">
       <div class="">
-        <a href="/">Home</a>
+        <router-link to="/">Home</router-link>
       </div>
       <div class="">
         <a href="/">Books</a>
       </div>
       <div class="">
-        <a href="/">Login</a>
+        <router-link to="/login">Login</router-link>
       </div>
     </nav>
   </header>
